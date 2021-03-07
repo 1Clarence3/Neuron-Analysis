@@ -12,7 +12,7 @@ public class Main {
         StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.enableDoubleBuffering();
         ArrayList<String> lines = new ArrayList<>();
-        File file = new File("D:\\Summer Internship\\Programming\\Sholl Analysis Java\\2019 10 19_2-1_Cl\\Data.txt");
+        File file = new File("2019 10 19_2-1_Cl\\Data.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String line;
         while ((line = br.readLine()) != null)
